@@ -8,9 +8,9 @@ PRIVATE_KEY=<your_private_key> tronbox migrate --network < mainnet | nile | shas
 ## Call
 In order to call the contract, you can run the following command:
 ```
-FULL_NODE=http://139.144.183.185:26667 \
-SOLIDITY_NODE=http://139.144.183.185:26668 \
-PRIVATE_KEY=138a22c03039e688daa2b7c785d1e8d6b9375d4413e6ea82471b1e7a61701a9d \
-TRANSFER_VERIFIER_ADDRESS=TNSVawmppWESV4n9GB4qMLjqbmoZi6zm48 \
+FULL_NODE=<full_node_url> \
+SOLIDITY_NODE=<solidity_node_url> \
+PRIVATE_KEY=<private_key> \
+TRANSFER_VERIFIER_ADDRESS=<contract_address> \
 ./scripts/verify.sh
 ```
